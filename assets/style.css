@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Lalezar-Regular';
+	src: url('fonts/Lalezar-Regular.eot');
+	src: local('☺'), url('fonts/Lalezar-Regular.woff') format('woff'), url('fonts/Lalezar-Regular.ttf') format('truetype'), url('fonts/Lalezar-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+  font-family: 'gandom';
+	src: url('fonts/Gandom-FD.eot');
+	src: local('☺'), url('fonts/Gandom-FD.woff') format('woff'), url('fonts/Lalezar-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+    font-family: 'Lalezar-Regular', 'gandom', sans-serif !important;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* background-color: #000; */
+    direction: rtl;
+    background-image: url('image/background.jpg');
+    color: #000;
+}
+p{
+  font-weight: lighter;
+  font-size: large;
+}
+p.countertext{
+  display: inline-block;
+  font-size: 3.5em;
+  padding: 0 0.1em 0 0.1em;
+  color: crimson;
+}
+progress{
+  display: block;
+  margin : 3em auto 0 auto;
+  width: 50%;
+}
