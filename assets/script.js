@@ -4,7 +4,7 @@ var m = document.querySelector("#m");
 var s = document.querySelector("#s");
 
 //set TIME
-let end = new Date("Apr 8, 2021 21:59:59").getTime();
+let end = new Date("Apr 8, 3021 21:59:59").getTime();
 
 var x = setInterval(function(){
     // Get today's date and time
